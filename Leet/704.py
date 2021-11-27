@@ -18,6 +18,8 @@ class Solution(object):
             if(N == 1):
                 if(nums[0] == target):
                     return 0
+                else:
+                    return -1
                 
 
             ## 중앙 Index 구하기
